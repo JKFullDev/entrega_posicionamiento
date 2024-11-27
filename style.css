@@ -18,6 +18,17 @@ body {
 /* El header no se mueve de la parte superior de la página durante el scroll */
 header {
   background-color: black;
+  background-position:0%;
   position: sticky;
   top: 0%;
+}
+
+
+.sidebar {
+  position:static;
+  left: 10px;
+}
+
+footer {
+  position: sticky;
 }
