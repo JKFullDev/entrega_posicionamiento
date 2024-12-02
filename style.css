@@ -15,10 +15,10 @@ body {
 
 /* Header */
 header {
-  position: fixed; /* Fijo en la parte superior */
+  position: sticky; /* Fijo en la parte superior */
   top: 0;
   width: 100%; /* Ocupa todo el ancho */
-  background-color: black;
+  background-color: solid black;
   padding: 10px;
   text-align: left;
   border-bottom: 1px dashed #00ff00; /* Línea verde en el borde inferior */
@@ -28,44 +28,42 @@ header {
 main {
   position: absolute;
   top: 100px; /* Espaciado desde el header */
-  left: 20px;
-  width: 300px;
+  width: 100%;
   border: 1px dashed #00ff00; /* Línea verde discontinua */
   padding: 10px;
-  height: 200px; /* Ajuste para que el bloque se vea bien */
 }
 
 /* Sidebar */
 .sidebar {
   position: fixed; /* Fijo al borde derecho */
-  top: 0;
   right: 0;
   width: 150px;
-  height: 100%; /* Ocupa toda la altura */
   background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
-  border-left: 1px dashed #00ff00; /* Línea verde en el borde izquierdo */
-  padding: 10px;
-  text-align: left;
+  border: 1px dashed #00ff00; /* Línea verde en el borde izquierdo */
+  padding-left: 25px;
+  margin-top: 2rem;
 }
 
 /* Características */
 .features {
   position: absolute;
-  top: 250px; /* Posiciona más abajo */
-  left: 50%; /* Centrado horizontalmente */
-  transform: translateX(-50%); /* Ajuste para centrar */
-  width: 500px; /* Ancho específico */
-  border: 1px dashed #00ff00; /* Línea verde discontinua */
+  top: 250px; 
+  border-top: 1px dashed #00ff00;
+  border-bottom: 1px dashed #00ff00;
   padding: 10px;
   text-align: center;
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10rem
 }
 
 /* Footer */
 footer {
-  position: fixed; /* Fijo al fondo de la ventana */
+  position:absolute; /* Fijo al fondo de la ventana */
   bottom: 0;
   width: 100%; /* Ocupa todo el ancho */
   text-align: center; /* Centrado horizontalmente */
   padding: 10px;
-  border-top: 1px dashed #00ff00; /* Línea verde en el borde superior */
+  border: 1px dashed #00ff00; /* Línea verde en el borde superior */
+  margin-top:10rem;
 }
