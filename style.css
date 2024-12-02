@@ -38,7 +38,6 @@ main {
   position: fixed; /* Fijo al borde derecho */
   right: 0;
   width: 150px;
-  background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
   border: 1px dashed #00ff00; /* Línea verde en el borde izquierdo */
   padding-left: 25px;
   margin-top: 2rem;
